@@ -54,7 +54,9 @@ jobs:
           if [ "$host" = "github.com" ]; then
             base="https://www.noahpaladino.com/mitcycling/"
           else
-            base="https://pages.${host}/${GITHUB_REPOSITORY}/"
+            # GHES without subdomain isolation serves Pages from a path on the
+            # main host; the pages.<host> form has no valid cert.
+            base="https://${host}/pages/${GITHUB_REPOSITORY}/"
           fi
           echo "BASE_URL=$base" >> "$GITHUB_ENV"
           echo "Building with baseURL: $base"

@@ -1,5 +1,225 @@
 [
   {
+    "date": "Aug 8 2026",
+    "date_iso": "2026-08-08",
+    "race": "Concord Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 9,
+    "category": "Men Master 60+",
+    "finish": "9 of 20"
+  },
+  {
+    "date": "Aug 8 2026",
+    "date_iso": "2026-08-08",
+    "race": "Concord Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Lorenzo Van munoz",
+    "place": 14,
+    "category": "Men 4/5",
+    "finish": "14 of 34"
+  },
+  {
+    "date": "Aug 4 2026",
+    "date_iso": "2026-08-04",
+    "race": "TNC at the Rent #6",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 23,
+    "category": "A Race",
+    "finish": "23 of 35"
+  },
+  {
+    "date": "Aug 4 2026",
+    "date_iso": "2026-08-04",
+    "race": "TNC at the Rent #6",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 25,
+    "category": "B Race",
+    "finish": "25 of 45"
+  },
+  {
+    "date": "Jul 28 2026",
+    "date_iso": "2026-07-28",
+    "race": "TNC at the Rent #5",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 17,
+    "category": "A Race",
+    "finish": "17 of 19"
+  },
+  {
+    "date": "Jul 28 2026",
+    "date_iso": "2026-07-28",
+    "race": "TNC at the Rent #5",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 11,
+    "category": "B Race",
+    "finish": "11 of 24"
+  },
+  {
+    "date": "Jul 25 2026",
+    "date_iso": "2026-07-25",
+    "race": "Devens Grand Prix p/b Conte's Bike Shop",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Lorenzo Van munoz",
+    "place": 20,
+    "category": "Open / Men's Category 3/4",
+    "finish": "20 of 20"
+  },
+  {
+    "date": "Jul 25 2026",
+    "date_iso": "2026-07-25",
+    "race": "Devens Grand Prix p/b Conte's Bike Shop",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Martin Hiti",
+    "place": 15,
+    "category": "Open / Men's Category 4/5",
+    "finish": "15 of 48"
+  },
+  {
+    "date": "Jul 25 2026",
+    "date_iso": "2026-07-25",
+    "race": "Devens Grand Prix p/b Conte's Bike Shop",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Noah Paladino",
+    "place": 33,
+    "category": "Open / Men's Category 4/5",
+    "finish": "33 of 48"
+  },
+  {
+    "date": "Jul 19 2026",
+    "date_iso": "2026-07-19",
+    "race": "Yarmouth Clam Festival Bike Race",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Matteo Fulghieri",
+    "place": 18,
+    "category": "Men's Pro 1/2/3",
+    "finish": "18 of 43"
+  },
+  {
+    "date": "Jul 19 2026",
+    "date_iso": "2026-07-19",
+    "race": "Yarmouth Clam Festival Bike Race",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Patrick White",
+    "place": 28,
+    "category": "Men's Pro 1/2/3",
+    "finish": "28 of 43"
+  },
+  {
+    "date": "Jul 18 2026",
+    "date_iso": "2026-07-18",
+    "race": "Sunshine Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Yaocheng Tian",
+    "place": 5,
+    "category": "Cat 5",
+    "finish": "5 of 19"
+  },
+  {
+    "date": "Jul 18 2026",
+    "date_iso": "2026-07-18",
+    "race": "Sunshine Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Martin Hiti",
+    "place": 9,
+    "category": "Cat 5",
+    "finish": "9 of 19"
+  },
+  {
+    "date": "Jul 18 2026",
+    "date_iso": "2026-07-18",
+    "race": "Sunshine Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Noah Paladino",
+    "place": 13,
+    "category": "Cat 5",
+    "finish": "13 of 19"
+  },
+  {
+    "date": "Jul 18 2026",
+    "date_iso": "2026-07-18",
+    "race": "Sunshine Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Gabriela Friel",
+    "place": 3,
+    "category": "Women Cat 3/4/5",
+    "finish": "3 of 4"
+  },
+  {
+    "date": "Jul 18 2026",
+    "date_iso": "2026-07-18",
+    "race": "Sunshine Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Matteo Fulghieri",
+    "place": 4,
+    "category": "Cat 1/2/3",
+    "finish": "4 of 28"
+  },
+  {
+    "date": "Jul 12 2026",
+    "date_iso": "2026-07-12",
+    "race": "Tri-State Cycling Woonie Crit",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Martin Hiti",
+    "place": 13,
+    "category": "Men 4/5 &amp; Jr 15-18",
+    "finish": "13 of 44"
+  },
+  {
+    "date": "Jul 12 2026",
+    "date_iso": "2026-07-12",
+    "race": "Tri-State Cycling Woonie Crit",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Noah Paladino",
+    "place": 23,
+    "category": "Men 4/5 &amp; Jr 15-18",
+    "finish": "23 of 44"
+  },
+  {
+    "date": "Jun 30 2026",
+    "date_iso": "2026-06-30",
+    "race": "TNC at the Rent #3",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 23,
+    "category": "A Race",
+    "finish": "23 of 30"
+  },
+  {
+    "date": "Jun 30 2026",
+    "date_iso": "2026-06-30",
+    "race": "TNC at the Rent #3",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 16,
+    "category": "B Race",
+    "finish": "16 of 41"
+  },
+  {
+    "date": "Jun 28 2026",
+    "date_iso": "2026-06-28",
+    "race": "NY Capital Region Road Race &amp; NYSBRA Road Race Championship",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Daniel Dudzik",
+    "place": 9,
+    "category": "Masters Men 60+",
+    "finish": "9 of 20"
+  },
+  {
+    "date": "Jun 13 2026",
+    "date_iso": "2026-06-13",
+    "race": "2026 Taco Time Volunteer Park Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Jonathan Wang",
+    "place": 42,
+    "category": "Cat 4/5 Senior M",
+    "finish": "42 of 45"
+  },
+  {
     "date": "Jun 20 2026",
     "date_iso": "2026-06-20",
     "race": "Connecticut Masters' Games Criterium",

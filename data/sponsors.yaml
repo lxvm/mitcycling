@@ -32,6 +32,22 @@
     rates. Their mechanical expertise and proximity to campus make them an invaluable
     part of our operation.
 
+- name: "Ascent Bikes"
+  tier: "Product"
+  url: "https://www.ascent-bikes.com"
+  logo: "/img/sponsors/sponsor5.png"
+  description: >
+    Ascent Bikes provides equipment support for the club, with particular focus on
+    our gravel and road programs.
+
+- name: "Llume"
+  tier: "Product"
+  url: "https://www.llume.io/"
+  logo: "/img/sponsors/llume.svg"
+  description: >
+    Llume provides equipment support for the club, with particular focus on
+    training equipment.
+
 - name: "Rudy Project"
   tier: "Product"
   url: "https://rudyproject.com"
@@ -39,11 +55,3 @@
   description: >
     Rudy Project supplies our team with helmets and eyewear, helping keep riders
     protected and visible at ECCC events and training rides throughout the year.
-
-- name: "Ascent Bikes"
-  tier: "Product"
-  url: "https://www.ascent-bikes.com"
-  logo: "/img/sponsors/sponsor5.png"
-  description: >
-    Ascent Bikes provides equipment support for the club, with particular focus on
-    our mountain bike and cyclocross programs.

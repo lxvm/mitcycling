@@ -6,7 +6,7 @@
       <div class="footer-brand">
         <div class="footer-logo">
           <a href="{{ site.Home.RelPermalink }}" class="site-logo" aria-label="{{ .Site.Title }}">
-            <div class="logo-mark">MC</div>
+            {{ with resources.Get "logo.svg" }}<img class="logo-mark" src="{{ .RelPermalink }}" alt="" aria-hidden="true">{{ end }}
             <div class="logo-text" style="color:white">
               MIT Cycling
               <span>Club</span>

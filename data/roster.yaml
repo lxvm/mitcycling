@@ -2,6 +2,86 @@
 # Add most recent season at the top.
 # Leave role blank for non-officers. Disciplines: Road, Track, Cyclocross, Mountain
 
+- season: "2026-2027"
+  members:
+    - name: "Lorenzo Van Munoz"
+      year: "Graduate"
+      department: "Physics"
+      disciplines: ["Road", "Cyclocross", "Gravel"]
+      role: "President"
+      image: ""
+
+    - name: "Will Lu"
+      year: "Undergraduate"
+      department: "Physics"
+      disciplines: ["Road"]
+      role: "Vice President / Social & Recruitment Chair"
+      image: ""
+
+    - name: "Martin Hiti"
+      year: "Graduate"
+      department: "Economics"
+      disciplines: ["Road", "Cyclocross"]
+      role: "Treasurer"
+      image: ""
+
+    - name: "David Galambos"
+      year: "Graduate"
+      department: "HST"
+      disciplines: ["Road", "Cyclocross"]
+      role: "Treasurer"
+      image: ""
+
+    - name: "Noah Paladino"
+      year: "Graduate"
+      department: "Physics"
+      disciplines: ["Gravel", "Road", "Cyclocross"]
+      role: "Sponsorship Officer / Gravel Captain"
+      image: ""
+
+    - name: "Andres Garcia Coleto"
+      year: "Graduate"
+      department: "EECS"
+      disciplines: ["Road"]
+      role: "Alumni Officer / Secretary"
+      image: ""
+
+    - name: "Matteo Fulghieri"
+      year: "Graduate"
+      department: "Physics"
+      disciplines: ["Road", "Track"]
+      role: "Clothing Officer / Track Captain"
+      image: ""
+
+    - name: "Sparrow Tian"
+      year: "Graduate"
+      department: "Mechanical Engineering"
+      disciplines: ["Gravel", "Road", "Cyclocross"]
+      role: "Logistics Officer / Road Captain"
+      image: ""
+
+    - name: "Gabriela Friel"
+      year: "Undergraduate"
+      department: "Chemical Engineering"
+      disciplines: ["Road"]
+      role: "Logistics Officer / Social & Recruitment Chair"
+      image: ""
+
+    - name: "Ryan Raikman"
+      year: "Graduate"
+      department: "Physics"
+      disciplines: ["Cyclocross", "Road"]
+      role: "Cyclocross Captain"
+      image: ""
+
+    - name: "Emily Mailhot"
+      year: "Graduate"
+      department: "Earth & Planetary Science"
+      disciplines: ["Road"]
+      role: "Road Captain"
+      image: ""
+
+
 - season: "2025-2026"
   members:
     - name: "Tatem Rios"
@@ -74,4 +154,292 @@
       role: "Apparel Chair"
       image: ""
 
+
+- season: "2024-2025"
+  members:
+    - name: "Mason Reece"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "President"
+      image: ""
+
+    - name: "Seamus Joyce-Johnson"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Vice President"
+      image: ""
+
+    - name: "Andrew Doan"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Treasurer / Equipment Manager"
+      image: ""
+
+    - name: "Will"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Treasurer"
+      image: ""
+
+    - name: "Chen Lu"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Sponsorship Officer"
+      image: ""
+
+    - name: "Felix Knollmann"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Alumni Officer"
+      image: ""
+
+    - name: "Ryan Raikman"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Clothing Officer"
+      image: ""
+
+    - name: "William Colgan"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Clothing Officer"
+      image: ""
+
+    - name: "Aaron Vliet"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Secretary / Webmaster"
+      image: ""
+
+    - name: "Bianca Champenois"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Social & Recruitment Chair"
+      image: ""
+
+    - name: "Max Katz-Christy"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "MTB Captain"
+      image: ""
+
+    - name: "Jianting Guo"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "MTB Captain"
+      image: ""
+
+    - name: "Vinh Tran"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Cyclocross Captain / Equipment Manager"
+      image: ""
+
+    - name: "Jody Mou"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Cyclocross Captain"
+      image: ""
+
+    - name: "Tatem Rios"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Women's Road Captain"
+      image: ""
+
+
+- season: "2023-2024"
+  members:
+    - name: "Hannah Varner"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "President / Women's Road Captain"
+      image: ""
+
+    - name: "Derek Schaadt"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Vice President / Clothing Officer"
+      image: ""
+
+    - name: "Matthew Goss"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Treasurer / MTB Captain / Equipment Manager"
+      image: ""
+
+    - name: "Andrew Doan"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Treasurer"
+      image: ""
+
+    - name: "Seamus Joyce-Johnson"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Sponsorship Officer"
+      image: ""
+
+    - name: "Lee Lopez"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Alumni Officer"
+      image: ""
+
+    - name: "Vinh Tran"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Clothing Officer / Cyclocross Captain"
+      image: ""
+
+    - name: "Aaron Vliet"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Secretary / Webmaster"
+      image: ""
+
+    - name: "Bianca Champenois"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Social & Recruitment Chair"
+      image: ""
+
+    - name: "Nick Arango"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Cyclocross Captain"
+      image: ""
+
+    - name: "William Colgan"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Men's Road Captain"
+      image: ""
+
+    - name: "Mason Reece"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Men's Road Captain"
+      image: ""
+
+
+- season: "2022-2023"
+  members:
+    - name: "Lee Lopez"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "President"
+      image: ""
+
+    - name: "Sarah Weiss"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Alumni Connections"
+      image: ""
+
+    - name: "Guillame Leclerc"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Sponsorship / Webmaster"
+      image: ""
+
+    - name: "Djuna"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Treasurer"
+      image: ""
+
+    - name: "Matthew Goss"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Treasurer / MTB Captain"
+      image: ""
+
+    - name: "Hannah Varner"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Clothing / Road Captain"
+      image: ""
+
+    - name: "Felix Knollmann"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Clothing"
+      image: ""
+
+    - name: "Mason Reece"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Logistics"
+      image: ""
+
+    - name: "Seamus Joyce-Johnson"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Logistics"
+      image: ""
+
+    - name: "Jonathan Cohen"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Secretary"
+      image: ""
+
+    - name: "Olivia Siegel"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Recruitment & Social"
+      image: ""
+
+    - name: "Derek Schaadt"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Road Captain"
+      image: ""
+
+    - name: "Nick Arango"
+      year: ""
+      department: ""
+      disciplines: []
+      role: "Cyclocross Captain"
+      image: ""
 

@@ -3,7 +3,7 @@
   <div class="header-inner">
 
     <a href="{{ .Site.Home.RelPermalink }}" class="site-logo" aria-label="{{ .Site.Title }} home">
-      <div class="logo-mark" aria-hidden="true">MC</div>
+      {{ with resources.Get "logo.svg" }}<img class="logo-mark" src="{{ .RelPermalink }}" alt="" aria-hidden="true">{{ end }}
       <div class="logo-text">
         MIT Cycling
         <span>Club</span>
