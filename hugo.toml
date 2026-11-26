@@ -7,6 +7,9 @@ summaryLength = 50
 [markup.goldmark.renderer]
   unsafe = true
 
+[markup.goldmark.renderHooks.image]
+  useEmbedded = 'always'
+
 [markup.highlight]
   style = 'monokai'
 
