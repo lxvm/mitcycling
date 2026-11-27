@@ -1,7 +1,7 @@
 ---
 title: "Track Day 2025"
 date: 2025-05-29T09:00:00-05:00
-author: "Aaron Vliet"
+author: "Matteo Fulghieri"
 categories: ["Track", "Rides", "Photos"]
 tags: ["track", "velodrome", "2025", "New Hampshire"]
 image: "/img/blog/posts/track-day-2025/t4.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Biking in a circle: Track Nats edition"
 date: 2025-09-17T09:00:00-05:00
-author: "Aaron Vliet"
+author: "Matteo Fulghieri"
 categories: ["Track", "Nationals", "Race Reports"]
 tags: ["track", "nationals", "velodrome", "2025"]
 image: "/img/blog/posts/biking-in-a-circle-track-nats-edition/tracknats1.jpg"
