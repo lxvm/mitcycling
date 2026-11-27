@@ -8,7 +8,7 @@
 #
 # Knobs (all env-overridable):
 #   BASE_URL       URL the site will be served at
-#   DEPLOY_REMOTE  remote to publish to (default: origin)
+#   DEPLOY_REMOTE  remote to publish to (default: mit = github.mit.edu)
 #   DEPLOY_BRANCH  branch to publish to (default: gh-pages)
 #
 set -euo pipefail
@@ -20,7 +20,7 @@ cd "$SCRIPT_DIR"
 # on the main host. The pages.github.mit.edu form resolves but has no valid
 # cert, which silently breaks every asset link — don't switch back to it.
 BASE_URL="${BASE_URL:-https://github.mit.edu/pages/MIT-Cycling/cycling.mit.edu/}"
-DEPLOY_REMOTE="${DEPLOY_REMOTE:-origin}"
+DEPLOY_REMOTE="${DEPLOY_REMOTE:-mit}"
 DEPLOY_BRANCH="${DEPLOY_BRANCH:-gh-pages}"
 
 # Resolved here because the staging repo below has no remotes of its own.

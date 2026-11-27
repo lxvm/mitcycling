@@ -1,5 +1,105 @@
 [
   {
+    "date": "Sep 20 2026",
+    "date_iso": "2026-09-20",
+    "race": "Diamond Mountain Classic by New York Bike Lawyers",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Gabriela Friel",
+    "place": 10,
+    "category": "Women Open (Cat 1-5) Free by NY Racing Club",
+    "finish": "10 of 11"
+  },
+  {
+    "date": "Sep 25 2026",
+    "date_iso": "2026-09-25",
+    "race": "New Haven Grand Prix",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Matteo Fulghieri",
+    "place": 17,
+    "category": "Men Pro/1/2",
+    "finish": "17 of 37"
+  },
+  {
+    "date": "Aug 25 2026",
+    "date_iso": "2026-08-25",
+    "race": "Pacific Raceways Circuit Race",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Jonathan Wang",
+    "place": 15,
+    "category": "Men Cat 4-5",
+    "finish": "15 of 21"
+  },
+  {
+    "date": "Aug 30 2026",
+    "date_iso": "2026-08-30",
+    "race": "46th Anniversary Wells Ave Crit Championship p/b Jeffrey Glassman Injury Lawyers",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Yaocheng Tian",
+    "place": 8,
+    "category": "Men CAT 3/4 B",
+    "finish": "8 of 41"
+  },
+  {
+    "date": "Aug 30 2026",
+    "date_iso": "2026-08-30",
+    "race": "46th Anniversary Wells Ave Crit Championship p/b Jeffrey Glassman Injury Lawyers",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Matteo Fulghieri",
+    "place": 2,
+    "category": "Men CAT 1/2/3 A",
+    "finish": "2 of 47"
+  },
+  {
+    "date": "Aug 23 2026",
+    "date_iso": "2026-08-23",
+    "race": "Wells Ave Crit #2 p/b Jeffrey Glassman Injury Lawyers",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Matteo Fulghieri",
+    "place": 20,
+    "category": "Men CAT 1/2/3 A",
+    "finish": "20 of 29"
+  },
+  {
+    "date": "Aug 22 2026",
+    "date_iso": "2026-08-22",
+    "race": "Tokeneke Road Race",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Martin Hiti",
+    "place": 28,
+    "category": "Men Cat 4/5",
+    "finish": "28 of 35"
+  },
+  {
+    "date": "Aug 8 2026",
+    "date_iso": "2026-08-08",
+    "race": "MAINEly Gravel",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Jody Mou",
+    "place": 3,
+    "category": "Women 58 Mile Gravel Grind (19-39 women)",
+    "finish": "3 of 7"
+  },
+  {
+    "date": "Aug 8 2026",
+    "date_iso": "2026-08-08",
+    "race": "MAINEly Gravel",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Yaocheng Tian",
+    "place": 36,
+    "category": "Men 58 Mile Gravel Grind (19-39 men)",
+    "finish": "36 of 52"
+  },
+  {
+    "date": "Aug 8 2026",
+    "date_iso": "2026-08-08",
+    "race": "MAINEly Gravel",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Noah Paladino",
+    "place": 37,
+    "category": "Men 58 Mile Gravel Grind (19-39 men)",
+    "finish": "37 of 52"
+  },
+  {
     "date": "Aug 8 2026",
     "date_iso": "2026-08-08",
     "race": "Concord Criterium",
@@ -110,6 +210,26 @@
     "finish": "28 of 43"
   },
   {
+    "date": "Jul 19 2026",
+    "date_iso": "2026-07-19",
+    "race": "Yarmouth Clam Festival Bike Race",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Matteo Fulghieri",
+    "place": 18,
+    "category": "\"Men's Pro 1",
+    "finish": "18 of 43"
+  },
+  {
+    "date": "Jul 19 2026",
+    "date_iso": "2026-07-19",
+    "race": "Yarmouth Clam Festival Bike Race",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Matteo Fulghieri",
+    "place": 18,
+    "category": "\"Men's Pro 1",
+    "finish": "18 of 43"
+  },
+  {
     "date": "Jul 18 2026",
     "date_iso": "2026-07-18",
     "race": "Sunshine Criterium",
@@ -160,6 +280,16 @@
     "finish": "4 of 28"
   },
   {
+    "date": "Jun 13 2026",
+    "date_iso": "2026-06-13",
+    "race": "2026 Taco Time Volunteer Park Criterium",
+    "race_url": "https://results.bikereg.com/team/40588",
+    "rider": "Jonathan Wang",
+    "place": 42,
+    "category": "Cat 4/5 Senior M",
+    "finish": "42 of 45"
+  },
+  {
     "date": "Jul 12 2026",
     "date_iso": "2026-07-12",
     "race": "Tri-State Cycling Woonie Crit",
@@ -208,16 +338,6 @@
     "place": 9,
     "category": "Masters Men 60+",
     "finish": "9 of 20"
-  },
-  {
-    "date": "Jun 13 2026",
-    "date_iso": "2026-06-13",
-    "race": "2026 Taco Time Volunteer Park Criterium",
-    "race_url": "https://results.bikereg.com/team/40588",
-    "rider": "Jonathan Wang",
-    "place": 42,
-    "category": "Cat 4/5 Senior M",
-    "finish": "42 of 45"
   },
   {
     "date": "Jun 20 2026",
