@@ -23,7 +23,7 @@
 
 {{ with .Params.image }}
 <div style="background:var(--gray-200);max-height:480px;overflow:hidden">
-  <img src="{{ . }}" alt="" style="width:100%;max-height:480px;object-fit:cover;display:block">
+  <img src="{{ partial "img-src.html" . }}" alt="" style="width:100%;max-height:480px;object-fit:cover;display:block">
 </div>
 {{ end }}
 
