@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-Fetch MIT Cycling race results from the BikeReg team results page.
+Fetch MIT Cycling race results from the BikeReg and crossresults.com team pages.
+Both sites run on the same AthleteReg backend and render identical markup, so
+one parser handles both.
 Requires: playwright (pip install playwright && playwright install chromium)
 
 Writes: data/race_results_live.json
@@ -15,11 +17,17 @@ from pathlib import Path
 
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
-TEAM_URL = "https://results.bikereg.com/team/40588"
+# Team IDs are per-site: crossresults' /team/40588 is a different team.
+SOURCES = [
+    ("BikeReg", "https://results.bikereg.com/team/40588"),
+    ("crossresults", "https://www.crossresults.com/team/72"),
+]
 OUTPUT = Path(__file__).parent.parent / "data" / "race_results_live.json"
 
 
-def fetch_html() -> str:
+def fetch_all() -> dict:
+    """Return {source name: html} for every source that loaded; warn on the rest."""
+    pages = {}
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         ctx = browser.new_context(
@@ -31,24 +39,35 @@ def fetch_html() -> str:
             extra_http_headers={"Accept-Language": "en-US,en;q=0.9"},
         )
         page = ctx.new_page()
-        page.goto(TEAM_URL, timeout=45_000)
-        try:
-            page.wait_for_selector("table.datatable1", timeout=45_000)
-        except PlaywrightTimeoutError:
-            pass  # fall through to the content check below for a clearer error
-        page.wait_for_timeout(5_000)
-        html = page.content()
+        for name, url in SOURCES:
+            print(f"Fetching {name} team results page…", file=sys.stderr)
+            try:
+                page.goto(url, timeout=45_000)
+                try:
+                    page.wait_for_selector("table.datatable1", timeout=45_000)
+                except PlaywrightTimeoutError:
+                    pass  # fall through to the content check below for a clearer error
+                page.wait_for_timeout(5_000)
+                html = page.content()
+            except Exception as e:  # one site being down shouldn't block the other
+                print(f"WARNING: {name} fetch failed: {e}", file=sys.stderr)
+                continue
+            if "datatable1" not in html:
+                print(f"WARNING: {name} did not return expected content — Cloudflare may have blocked the request",
+                      file=sys.stderr)
+                continue
+            pages[name] = html
         browser.close()
-    if "datatable1" not in html:
-        raise RuntimeError("Did not receive expected page content — Cloudflare may have blocked the request")
-    return html
+    if not pages:
+        raise RuntimeError("No results source could be fetched")
+    return pages
 
 
 def strip_tags(html: str) -> str:
     return re.sub(r"<[^>]+>", "", html).strip()
 
 
-def parse_results(html: str) -> list:
+def parse_results(html: str, team_url: str) -> list:
     # The results table is the 4th datatable1 on the page (index 3)
     tables = re.findall(
         r'<table[^>]*class="datatable1"[^>]*>(.*?)</table>',
@@ -113,7 +132,7 @@ def parse_results(html: str) -> list:
                 "date": current_date,
                 "date_iso": current_date_iso,
                 "race": current_race,
-                "race_url": TEAM_URL,
+                "race_url": team_url,
                 "rider": f"{first} {last}".strip(),
                 "place": place,
                 "category": category,
@@ -132,20 +151,29 @@ def main():
     if OUTPUT.exists():
         existing = json.loads(OUTPUT.read_text())
 
-    existing_keys = {result_key(r) for r in existing}
+    seen = {result_key(r) for r in existing}
 
-    print("Fetching BikeReg team results page…", file=sys.stderr)
-    html = fetch_html()
-    print("Parsing results…", file=sys.stderr)
-    scraped = parse_results(html)
-
-    new_results = [r for r in scraped if result_key(r) not in existing_keys]
+    pages = fetch_all()
+    urls = dict(SOURCES)
+    new_results = []
+    for name, html in pages.items():
+        print(f"Parsing {name} results…", file=sys.stderr)
+        added = 0
+        # A race can appear on both sites; the first source listed wins.
+        for r in parse_results(html, urls[name]):
+            if result_key(r) not in seen:
+                seen.add(result_key(r))
+                new_results.append(r)
+                added += 1
+        print(f"  {added} new from {name}", file=sys.stderr)
 
     if not new_results:
         print("No new results.", file=sys.stderr)
         return
 
-    merged = new_results + existing
+    # The templates show results in file order (the homepage takes the first
+    # few), so keep the file newest-first. Stable sort keeps same-day order.
+    merged = sorted(new_results + existing, key=lambda r: r["date_iso"], reverse=True)
     OUTPUT.write_text(json.dumps(merged, indent=2, ensure_ascii=False))
     print(f"Added {len(new_results)} new results ({len(merged)} total) to {OUTPUT}", file=sys.stderr)
 
